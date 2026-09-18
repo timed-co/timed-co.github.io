@@ -339,7 +339,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .subscribe-form {
   display: flex;
   gap: 10px;
-  max-width: 420px;
+  max-width: 620px;
   flex-wrap: wrap;
   margin: 0 auto;
   justify-content: center;
