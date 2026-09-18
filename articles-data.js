@@ -8,6 +8,7 @@ const ARTICLES = [
     date: "05/26",
     title: "Basic level car ball knowledge",
     excerpt: "oh you actually clicked... hah joking, this ain't youtube, this the written version, and a placeholder at that, so yeah... here goes, aint gonna start cause i dont really know what to write here, since it's meant to be sort of a preview of the article i still haven't written properly... even tho the script is... eh whatevs."
+    body: "random body here to see if this solves it"
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ const ARTICLES = [
     date: "05/26",
     title: "The 911 GT3 has an identity problem.",
     excerpt: "porsche... there is no substitute. yeah... that was back in the 90s... right now? there might acutally be one, but let's go back to the basics or something cause i dont remember what i said specifically in this intro... same concept to basic ball applies, ergo i haven't wrote the article yet"
+    body: "same here to see if it solves it"
   },
   {
     id: 3,
