@@ -428,8 +428,13 @@ footer {
 }
 
 /* ===== Article page ===== */
-.article-page { 
+.article-page {
   text-align: center;
+}
+
+.article-body {
+  max-width: 62ch;
+  margin: 0 auto;   /* centers the block */
 }
 
 .back-link {
