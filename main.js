@@ -2,12 +2,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
   /* ---------- Card rendering (shared by carousel + search results) ---------- */
   function cardHTML(article, extraClass) {
+    const bodyPreview = article.body.includes("<")
+      ? article.body
+      : `<p>${article.body}</p>`;
+
     return `
       <a class="paper-card ${extraClass || ""}" href="${article.slug}" data-id="${article.id}">
-        <span class="piece-tag ${article.tag.toLowerCase()}">${article.tag}</span>
-        <h3 class="card-title">${article.title}</h3>
-        <p class="card-excerpt">${article.excerpt}</p>
-        <span class="card-date">${article.date}</span>
+        <div class="paper-preview">
+          <span class="piece-tag ${article.tag.toLowerCase()}">${article.tag}</span>
+          <h3 class="card-title">${article.title}</h3>
+          <div class="card-body-preview">${bodyPreview}</div>
+          <span class="card-date">${article.date}</span>
+        </div>
       </a>`;
   }
 
@@ -16,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const viewport = document.getElementById("carousel-viewport");
   const prevBtn = document.getElementById("carousel-prev");
   const nextBtn = document.getElementById("carousel-next");
-  let activeIndex = Math.min(2, ARTICLES.length - 1); // start near the middle if possible
+  let activeIndex = 0; // always start on the first piece
 
   if (track) {
     track.innerHTML = ARTICLES.map((a) => cardHTML(a)).join("");
