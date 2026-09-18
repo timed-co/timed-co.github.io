@@ -3,21 +3,19 @@
 const ARTICLES = [
   {
     id: 1,
-    slug: "article-1.html",
-    tag: "Article",
-    date: "Placeholder date",
-    title: "Why GT3 Cars Feel Different On Paper",
-    excerpt: "Placeholder excerpt — the spec sheet tells you almost nothing about how a car actually feels, and GT3 cars are the clearest example of why that gap exists.",
-    body: "Placeholder body text. This is where the full article goes. Spec sheets are a flattened, one-dimensional way of describing something that's fundamentally about feel, feedback, and the thousand small decisions an engineer made that never show up as a number. Placeholder sentence to give the search index something real to match against — words like chassis, downforce, and balance should return this card when searched. Replace this whole block with the actual piece when it's written."
+    slug: "basic-level-car-ball-knowledge.html",
+    tag: "Script",
+    date: "05/26",
+    title: "Basic level car ball knowledge",
+    excerpt: "oh you actually clicked... hah joking, this ain't youtube, this the written version, and a placeholder at that, so yeah... here goes, aint gonna start cause i dont really know what to write here, since it's meant to be sort of a preview of the article i still haven't written properly... even tho the script is... eh whatevs."
   },
   {
     id: 2,
-    slug: "article-2.html",
+    slug: "the-911-gt3-has-an-identity-problem.html",
     tag: "Script",
-    date: "Placeholder date",
-    title: "Written Version of the Chassis Video",
-    excerpt: "Placeholder excerpt — the full script from the chassis breakdown video, in reading form, for anyone who'd rather read than watch.",
-    body: "Placeholder body text. This is the written companion to a video script — same content, same structure, adapted for reading rather than voiceover pacing. Placeholder sentence about suspension geometry, roll centers, and unsprung mass to give this entry something searchable. Replace with the real script writeup."
+    date: "05/26",
+    title: "The 911 GT3 has an identity problem.",
+    excerpt: "porsche... there is no substitute. yeah... that was back in the 90s... right now? there might acutally be one, but let's go back to the basics or something cause i dont remember what i said specifically in this intro... same concept to basic ball applies, ergo i haven't wrote the article yet"
   },
   {
     id: 3,
