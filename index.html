@@ -4,76 +4,79 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Timed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="page">
 
-  <aside class="sidebar">
-    <div class="mark">@timed.gt3</div>
-    <h1>Timed</h1>
-    <p class="role">Automotive writing</p>
-    <nav class="nav">
-      <a href="index.html" class="active">Home</a>
-      <a href="writing.html">Writing</a>
+  <!-- ===== Hero / index ===== -->
+  <header class="hero">
+    <h1 class="hero-title">Timed</h1>
+    <nav class="index-list">
+      <a class="index-row" href="#about">
+        <span class="num">[1]</span>
+        <span class="leader"></span>
+        <span class="label">About</span>
+      </a>
+      <a class="index-row" href="#writing">
+        <span class="num">[2]</span>
+        <span class="leader"></span>
+        <span class="label">Writing</span>
+      </a>
     </nav>
-  </aside>
+  </header>
 
-  <main class="content">
+  <div class="wrap">
 
-    <section class="section">
-      <p class="section-label">About</p>
-      <p class="lede about">
-        Hi, I'm Timed. I write and make videos about cars — the engineering,
-        the history, the parts of the automotive world nobody bothers to
-        explain properly. Everything here started as a script for
-        <b>@timed.gt3</b> on YouTube, or as a piece that never made it to video at all.
-      </p>
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+      <p class="about-lead">A car channel and a writing practice that happen to share a name.</p>
+      <div class="about-body">
+        <p>Placeholder — this is the long-form about blurb. Timed started as <b>@timed.gt3</b> on YouTube, a channel about the parts of the automotive world nobody bothers explaining properly: chassis behavior, engine architecture, the decisions that separate a car that feels alive from one that just moves.</p>
+        <p>Placeholder paragraph two — most of what ends up on YouTube starts here first, as a script written out in full before it's ever recorded. Some of it never becomes a video at all and just stays here, as a piece on its own. That's the split you'll find in the writing section below — articles, scripts, and pieces, all under one roof.</p>
+        <p>Placeholder paragraph three — replace this whole section with the real bio once it's written. For now it exists to show the formatting: generous margins, a readable line length, a lead line that's a little bigger and a little more considered than the body underneath it.</p>
+      </div>
     </section>
 
-    <section class="section">
-      <p class="section-label">Recent Writing</p>
-      <p class="lede">The written side of the channel — articles, scripts, and pieces.</p>
-
-      <div class="piece-list">
-        <div class="piece-row">
-          <span class="piece-tag article">Article</span>
-          <span class="piece-title">
-            <a class="piece-title-link" href="post-example.html">Placeholder — Why GT3 Cars Feel Different On Paper</a>
-          </span>
-          <span class="piece-date">Placeholder date</span>
-        </div>
-        <div class="piece-row">
-          <span class="piece-tag script">Script</span>
-          <span class="piece-title">
-            <a class="piece-title-link" href="post-example.html">Placeholder — Written Version of the Chassis Video</a>
-          </span>
-          <span class="piece-date">Placeholder date</span>
-        </div>
-        <div class="piece-row">
-          <span class="piece-tag piece">Piece</span>
-          <span class="piece-title">
-            <a class="piece-title-link" href="post-example.html">Placeholder — Notes On Slow Cars</a>
-          </span>
-          <span class="piece-date">Placeholder date</span>
+    <!-- ===== Writing / carousel + search ===== -->
+    <section class="section" id="writing">
+      <div class="writing-head">
+        <h2 class="writing-title">Writing</h2>
+        <div class="search-wrap">
+          <input class="search-input" id="search-input" type="text" placeholder="Search everything...">
         </div>
       </div>
 
-      <a class="view-all" href="writing.html">View all writing &#8594;</a>
+      <div class="writing-stage" id="writing-stage">
+        <button class="carousel-btn" id="carousel-prev" aria-label="Previous">&#8592;</button>
+        <div class="carousel-viewport" id="carousel-viewport">
+          <div class="carousel-track" id="carousel-track"></div>
+        </div>
+        <button class="carousel-btn" id="carousel-next" aria-label="Next">&#8594;</button>
+      </div>
+
+      <div class="results-grid" id="results-grid"></div>
+      <p class="results-empty" id="results-empty">Nothing matches that search yet.</p>
     </section>
 
-    <section class="section">
-      <p class="section-label">Connect</p>
-      <div class="connect-links">
-        <a href="#">YouTube</a>
-        <a href="#">Twitter</a>
-        <a href="#">Instagram</a>
-      </div>
+    <!-- ===== Subscribe ===== -->
+    <section class="section" id="subscribe">
+      <p class="subscribe-lead">New pieces, sent straight to your inbox — no feed to check, no algorithm in between.</p>
+
+      <!-- Replace YOUR_FORM_ID below with the real Formspree endpoint -->
+      <form class="subscribe-form" id="subscribe-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input class="subscribe-input" type="email" name="email" placeholder="you@email.com" required>
+        <button class="subscribe-btn" type="submit">Subscribe</button>
+      </form>
+      <p class="subscribe-status" id="subscribe-status"></p>
     </section>
 
     <footer>&copy; 2026 Timed</footer>
+  </div>
 
-  </main>
-</div>
+  <script src="articles-data.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
