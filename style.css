@@ -206,13 +206,16 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   border-color: var(--faint);
 }
 
-.paper-card .piece-tag {
-  align-self: flex-start;
+.piece-tag {
   font-family: var(--mono);
   font-size: 10.5px;
   letter-spacing: .03em;
   padding: 3px 8px;
   border-radius: 6px;
+}
+
+.paper-card .piece-tag {
+  align-self: flex-start;
   margin-bottom: 16px;
 }
 .piece-tag.article { background: color-mix(in srgb, var(--tag-article) 18%, transparent); color: var(--tag-article); }
