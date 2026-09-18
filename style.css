@@ -428,7 +428,9 @@ footer {
 }
 
 /* ===== Article page ===== */
-.article-page { padding: 56px 0 96px; }
+.article-page { 
+  text-align: center;
+}
 
 .back-link {
   font-family: var(--mono);
@@ -456,7 +458,6 @@ footer {
   font-size: clamp(30px, 4.5vw, 44px);
   line-height: 1.2;
   margin: 0 0 40px;
-  max-width: 20ch;
 }
 
 .article-body {
@@ -464,7 +465,7 @@ footer {
   line-height: 1.8;
   max-width: 62ch;
 }
-.article-body p { margin: 0 0 22px; }
+.article-body p { margin: 0 auto; }
 
 /* ===== Responsive ===== */
 @media (max-width: 680px) {
