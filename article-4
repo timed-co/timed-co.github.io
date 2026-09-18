@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Case For Manuals Nobody Asked For — Timed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap article-page">
+    <a class="back-link" href="index.html#writing">&#8592; Back home</a>
+
+    <div class="article-meta">
+      <span class="piece-tag article">Article</span>
+      <span class="article-date">Placeholder date</span>
+    </div>
+
+    <h1 class="article-title">The Case For Manuals Nobody Asked For</h1>
+
+    <div class="article-body">
+      <p>Placeholder body text. Placeholder argument structure: manuals aren't just about romance, there's an actual mechanical and control-feel case to be made.</p>
+      <p>Placeholder sentence about clutch engagement, rev-matching, and driver involvement for the search index to catch.</p>
+    </div>
+  </div>
+</body>
+</html>
