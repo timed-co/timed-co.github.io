@@ -36,14 +36,5 @@ const ARTICLES = [
     title: "The Case For Manuals Nobody Asked For",
     excerpt: "Placeholder excerpt — an argument for manual transmissions that isn't just nostalgia, backed by something closer to an engineering case.",
     body: "Placeholder body text. Placeholder argument structure: manuals aren't just about romance, there's an actual mechanical and control-feel case to be made. Placeholder sentence about clutch engagement, rev-matching, and driver involvement for the search index to catch. Replace with the real article."
-  },
-  {
-    id: 5,
-    slug: "article-5.html",
-    tag: "Script",
-    date: "Placeholder date",
-    title: "Written Version of the Engine Architecture Video",
-    excerpt: "Placeholder excerpt — the full script from the engine architecture video, written out for reading.",
-    body: "Placeholder body text. Companion writeup to a video script covering engine architecture basics. Placeholder sentence about displacement, bore, stroke, and cylinder layout for search matching. Replace with the real script writeup."
   }
 ];
