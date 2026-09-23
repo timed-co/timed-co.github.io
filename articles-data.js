@@ -16,8 +16,8 @@ const ARTICLES = [
     tag: "Script",
     date: "05/26",
     title: "The 911 GT3 has an identity problem.",
-    excerpt: "porsche... there is no substitute. yeah... that was back in the 90s... right now? there might acutally be one, but let's go back to the basics or something cause i dont remember what i said specifically in this intro... same concept to basic ball applies, ergo i haven't wrote the article yet",
-    body: "same here to see if it solves it"
+    excerpt: "porsche there is no substitute",
+    body: "... "Porsche, there is no substitute"  yeah... that was back in the 90s, right now? there might actually be one...  But first, what Porsche did REALLY good, let's start from the beginning. In 1999 they were missing something, the 911 lacked a sportier trim, so they came up with a pretty cool idea, "let's take the standard 911, strip it down, lower it and give it a lil wing". And so the 996 GT3 was born."
   },
   {
     id: 3,
