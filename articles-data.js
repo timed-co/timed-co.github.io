@@ -7,8 +7,8 @@ const ARTICLES = [
     tag: "Script",
     date: "05/26",
     title: "Basic level car ball knowledge",
-    excerpt: "oh you actually clicked... hah joking, this ain't youtube, this the written version, and a placeholder at that, so yeah... here goes, aint gonna start cause i dont really know what to write here, since it's meant to be sort of a preview of the article i still haven't written properly... even tho the script is... eh whatevs.",
-    body: "random body here to see if this solves it"
+    excerpt: "random line here, wont matter...",
+    body: "... huh, you actually clicked, welp let's get into it. Let's start with BMW because most people don't know what the actual trim numbers mean, like what's the difference between a 330i and a 335i, and so on and so forth.  Basically, let's take the 3-series for reference, the base model would be the 320i, splitting the numbers like this (animate a chart yourself), the "i" standing for injected, but we'll go over letters later.  The logic generally follows this pattern, the 20 being the basest model, the 30 slightly over that, then the 40 being the sportier but not quite performance model, 50 just below top tier and 60 being the flagship.  BUT, of course they had to make it more complicated than that, because it's not the same for every model, we don't have a 360i or a 720i, top numbers are usually reserved for (show serieses) top notch models, makes sense right?   Ok, NOW let's go over letters, as i said we have the "i" for injected, basically meaning gas powered as of now, then the "d" (insert visual joke)for diesel, "e" for hybrid,  "but what about the i3 and i8?" those are models from a whole other line, launched in 2013 and has paved the way for these (show ix, i5, i3 ...) yeah, not their best work...  Finally we got the L or Li, meaning long wheelbase, which you'd only see on the seven series on specific markets"
   },
   {
     id: 2,
