@@ -28,10 +28,12 @@ const ARTICLES = [
     title: "The 911 GT3 has an identity problem.",
     excerpt: "porsche there is no substitute",
     body: `<p>"porsche... there is no substitute"</p>
+      <img src="950660ae-5343-440a-8f35-1ff6ea3c925c-AMCJPHOTOS_964Turbo_Arizona_Finals-2026-21-tiny-2048x0.jpg" alt="964 turbo">
       <p>ye, that was back in the 90s,</p> 
       <p>NOW, there might actually be one...</p>
       <p>But first, what Porsche did REALLY good, let's start from the beginning. In 1999 they were missing something, the 911 lacked a sportier trim, so they came up with a pretty cool idea, "let's take the standard 911, strip it down, lower it and give it a lil wing"</p>
-      <p>And so the 996 GT3 was born.</p> 
+      <p>And so the 996 GT3 was born.</p>
+      <img src="Classic-&-Sports-Car-Porsche-911-GT3-06.jpg" alt="996 gt3">
       <p>High revving, naturally aspirated and with a manual transmission, it was made to race in the GT3 class, hence the name, it was a homologation model more than something designed for the road, and it came in at about $100k. Then in 2004 they took the GT3 formula, added a bigger wing, shaved some more weight and that was the first 911 GT3 RS.</p>
       <p>Back to now, the 992 GT3 kept pretty much the same formula, except maybe for the PDK, naturally aspirated, high revving but now it starts at</p>`
   }
