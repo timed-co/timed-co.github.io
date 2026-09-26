@@ -479,6 +479,12 @@ footer {
   text-align: left;
 }
 
+@media (prefers-color-scheme: dark) {
+  .article-body {
+    color: #aaa7a0;
+  }
+}
+
 .article-body img {
   display: block;
   width: 90%;
