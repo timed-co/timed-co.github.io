@@ -32,23 +32,5 @@ const ARTICLES = [
       <p>And so the 996 GT3 was born.</p> 
       <p>High revving, naturally aspirated and with a manual transmission, it was made to race in the GT3 class, hence the name, it was a homologation model more than something designed for the road, and it came in at about $100k. Then in 2004 they took the GT3 formula, added a bigger wing, shaved some more weight and that was the first 911 GT3 RS.</p>
       <p>Back to now, the 992 GT3 kept pretty much the same formula, except maybe for the PDK, naturally aspirated, high revving but now it starts at</p>`
-  },
-  {
-    id: 3,
-    slug: "article-3.html",
-    tag: "Piece",
-    date: "Placeholder date",
-    title: "Notes On Slow Cars",
-    excerpt: "Placeholder excerpt — a short, standalone piece that never made it into a video, about why slow cars deserve more attention than they get.",
-    body: "Placeholder body text. A shorter, more personal piece — not tied to a video, not really an 'article' in the reported sense, closer to a journal entry about cars. Placeholder sentence mentioning momentum, patience, and the appeal of a car with nothing to prove. Replace with the real piece."
-  },
-  {
-    id: 4,
-    slug: "article-4.html",
-    tag: "Article",
-    date: "Placeholder date",
-    title: "The Case For Manuals Nobody Asked For",
-    excerpt: "Placeholder excerpt — an argument for manual transmissions that isn't just nostalgia, backed by something closer to an engineering case.",
-    body: "Placeholder body text. Placeholder argument structure: manuals aren't just about romance, there's an actual mechanical and control-feel case to be made. Placeholder sentence about clutch engagement, rev-matching, and driver involvement for the search index to catch. Replace with the real article."
   }
 ];
