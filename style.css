@@ -469,6 +469,7 @@ footer {
   line-height: 1.8;
   max-width: 62ch;
   margin: 0 auto;
+  text-align: left;
 }
 .article-body p {
   margin: 0 auto 22px;   /* <-- bug #2, see below */
