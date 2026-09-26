@@ -465,6 +465,7 @@ footer {
 }
 
 .article-body {
+  color: #4f4e4a;
   font-size: 17px;
   line-height: 1.8;
   max-width: 62ch;
