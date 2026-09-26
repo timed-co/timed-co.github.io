@@ -10,9 +10,11 @@ const ARTICLES = [
     excerpt: "random line here, wont matter...",
     body: `<p>... huh, you actually clicked, welp let's get into it.</p>
       <p>Let's start with BMW because most people don't know what the actual trim numbers mean, like what's the difference between a 330i and a 335i, and so on and so forth.</p>
+      <img src="2001-bmw-330i-10-68b85cc2dfd5b.jpg" alt="330i from 2001">
       <p>Basically, let's take the 3-series for reference, the base model would be the 320i, splitting the numbers like this, the "i" standing for injected, but we'll go over letters later.</p>
       <p>The logic generally follows this pattern, the 20 being the basest model, the 30 slightly over that, then the 40 being the sportier but not quite performance model, 50 just below top tier and 60 being the flagship. But, of course they had to make it more complicated than that, because it's not the same for every model, we don't have a 360i or a 720i, top numbers are usually reserved for top notch models, makes sense right? And now let's go over letters, as i said we have the "i" for injected, basically meaning gas powered as of now, then the "d" for diesel, "e" for hybrid,</p>
       <p>"but what about the i3 and i8?"</p>
+      <img src="2019-bmw-i8-roadster-110-1541523536.jpg" alt="bmw i8">
       <p>those are models from a whole other line, launched in 2013 and has paved the way for these</p>
       <p>yeah, not their best work...</p>
       <p>Finally we got the L or Li, meaning long wheelbase, which you'd only see on the seven series on specific markets. But wait, what about what people call the fake Ms, more politely, the "m-lites" like the M340i or M550i, they're basically step downs from the full fledged "M" models, having the same powerplant</p>
