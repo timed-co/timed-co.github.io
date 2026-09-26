@@ -471,6 +471,13 @@ footer {
   margin: 0 auto;
   text-align: left;
 }
+
+.article-body img {
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 24px auto;
+}
 .article-body p {
   margin: 0 auto 22px;   /* <-- bug #2, see below */
 }
