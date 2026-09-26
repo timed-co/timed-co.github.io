@@ -5,7 +5,7 @@ const ARTICLES = [
     id: 1,
     slug: "basic-level-car-ball-knowledge.html",
     tag: "Script",
-    date: "05/26",
+    date: "May 11, 2026",
     title: "Basic level car ball knowledge",
     excerpt: "random line here, wont matter...",
     body: `<p>... huh, you actually clicked, welp let's get into it.</p>
@@ -22,7 +22,7 @@ const ARTICLES = [
     id: 2,
     slug: "the-911-gt3-has-an-identity-problem.html",
     tag: "Script",
-    date: "05/26",
+    date: "May 17, 2026",
     title: "The 911 GT3 has an identity problem.",
     excerpt: "porsche there is no substitute",
     body: `<p>"porsche... there is no substitute"</p>
